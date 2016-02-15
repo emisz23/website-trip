@@ -1,22 +1,15 @@
-body {
-    font-family: Arial, Times;
-    background-color: rgb(255, 255, 255);
+.column1of3, .column2of3, .column3of3 {
+    width: 30%;
+    float: left;
+    margin: 10px;
 }
-
-p.one {
-    height: 25%;
-    width: 75%;
-    border-width: 4px;
+p.one, p.two {
+    width: 90%;
+    font-size: 20px;
+    border-top: double;
     padding: 15px;
-    background-color: rgb(255, 255, 255);
-    font-size: 24px;
-    border-style: groove
 }
 
-h1, h2 {
-    text-transform: uppercase;
-}
-
-a {
-    font-size: 24px;
+body {
+    background-color: #CCE5FF;
 }

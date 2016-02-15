@@ -1,48 +1,46 @@
 body {
-    background-color: rgb(255, 255, 255);
-    font-family: Geaorgia, Times, serif;
+    padding: 40px;
+    padding-top: 0px;
+    background-color: #CCE5FF;
 }
-
 a {
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 30px;
 }
-
-h1 {
-    text-transform: uppercase;
+.column1of2, .column2of2 {
+    float: left;
+    margin: 10px;
+    width: 33%
+}
+div.one {
+    position: fixed;
+    background-color: #efefef;
+    width: 100%
+    z-index: 20;
+    height: 60px;
+    display: inline;
+    border-bottom-style: double;
 }
 
 p.one {
-    height: 30%;
-    width: 68%;
-    border-width: 4px;
-    border-style: double;
-    padding: 15px;
-    margin: 30px;
-    font-size: 24px;
-    background-color: rgb(160, 160, 160);
-    text-align: justify
-}
-
-dt {
-    text-transform: uppercase;
-    font-size: 30px
-}
-
-dt {
-    margin: 15px;
-}
-
-dd.one, dd.two, dd.three, dd.four, dd.five {
-    width: 68%;
-    padding: 15px;
-    font-size: 24px;
+    padding-top: 150px;
+    width: 90%;
     text-align: justify;
-    background-color: rgb(192, 192, 192)
+    font-size: 24px
+}
+div.two {
+    padding-top: 25px;
+    text-align: justify;
 }
 
-p.two, p.three, p.four, p.five, p.six, p.seven, p.eight, p.nine {
+p.two {
     font-size: 20px;
+    width: 90%;
+}
+
+p.three {
+    font-size: 16px;
     text-align: center;
-    width: 68%;
+    padding-top: 3px;
+    width: 90%;
 }

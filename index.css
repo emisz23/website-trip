@@ -5,11 +5,26 @@
 }
 p.one, p.two {
     width: 90%;
-    font-size: 20px;
+    font-size: 24px;
     border-top: double;
     padding: 15px;
 }
 
 body {
-    background-color: #CCE5FF;
+    background-color: #A7F4FE;
+    background-image: url("images/pattern1.jpg");
+    background-repeat: repeat-x;
+}
+
+h1.page-header {
+    margin-top: 350px;
+}
+
+a {
+    font-size: 20px;
+}
+
+div.one {
+    margin-left: 200px;
+    margin-right: 100px;
 }

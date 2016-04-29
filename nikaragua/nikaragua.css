@@ -16,6 +16,11 @@ a {
     padding-left: 10px;
     width: 35%;
 }
+
+a.two {
+    font-size: 20px
+}
+
 div.one {
     margin-left: -40px;
     width: 100%;
@@ -70,7 +75,7 @@ h2 {
 }
 
 img {
-    width: 90%;
+    width: 80%;
 }
 
 ul { font-size: 20px;
